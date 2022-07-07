@@ -1,6 +1,7 @@
 import axios from "axios";
 
-let baseUrl = "http://localhost:5000";
+// let baseUrl = "http://localhost:5000";
+let baseUrl = "https://poke-coin-backend.herokuapp.com/";
 
 const pokeCoinApi = axios.create({
   baseURL: baseUrl,

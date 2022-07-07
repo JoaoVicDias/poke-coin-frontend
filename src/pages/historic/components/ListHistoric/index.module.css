@@ -1,0 +1,12 @@
+.ul_list_historic__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.h4_feedback__message {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 1.5rem;
+}

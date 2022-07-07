@@ -1,0 +1,38 @@
+.header_home__container {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 50px;
+    gap: 10px;
+}
+
+.h3_header__logo {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.div_header_message_container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.span_header_message_text {
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.button_header_logout {
+    color: #fff;
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 2px;
+}
+
+@media(max-width: 767px) {
+    .header_home__container {
+        flex-direction: column;
+    }
+}

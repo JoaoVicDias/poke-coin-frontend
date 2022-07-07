@@ -1,0 +1,38 @@
+.li_historic_item__container {
+    width: 100%;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-shadow: rgb(0 0 0 / 30%) 1px 3px 12px 0px;
+}
+
+.h4_historic_item__name {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+}
+
+.p_historic_item__type {
+    font-size: 1.2rem;
+}
+
+.p_type__purchase {
+    color: rgb(84, 84, 243);
+}
+
+.p_type__sale {
+    color: rgb(231, 36, 36);
+}
+
+.small_historic_item__amount {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.p_historic_item__price {
+    font-size: 1.2rem;
+}

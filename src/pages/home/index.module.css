@@ -1,0 +1,5 @@
+.div_home__container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

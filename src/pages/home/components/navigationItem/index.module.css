@@ -1,0 +1,18 @@
+.li_navigation_item__container {
+    font-size: 1.6rem;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+    text-transform: capitalize;
+    border-bottom: none;
+}
+
+.li__active {
+    border-bottom: 2px solid #000;
+}
+
+@media (max-width: 767px) {
+    .li_navigation_item__container {
+        font-size: 1.2rem;
+    }
+}

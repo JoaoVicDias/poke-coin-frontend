@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: rgb(242, 242, 242);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+    cursor: pointer;
+    border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul,
+li {
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.modal-transition-enter {
+    transform: translateY(-100px);
+    opacity: 0;
+}
+
+.modal-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 200ms;
+}
+
+.modal-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 50ms;
 }

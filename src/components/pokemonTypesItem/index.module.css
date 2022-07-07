@@ -1,0 +1,47 @@
+.li_type__container {
+    padding: 8px;
+    display: flex;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.img__type {
+    width: 18px;
+    height: 18px;
+}
+
+.span_type__name {
+    text-transform: capitalize;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 14px;
+}
+
+@media(max-width: 1023px) {
+    .img__type {
+        width: 12px;
+        height: 12px;
+    }
+
+    .span_type__name {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 380px) {
+    .li_type__container {
+        padding: 5px;
+    }
+
+    .img__type {
+        width: 10px;
+        height: 10px;
+    }
+
+    .span_type__name {
+        font-size: 0.9rem;
+        line-height: initial;
+    }
+}

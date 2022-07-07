@@ -1,0 +1,24 @@
+.ul_list_pokemon__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+}
+
+.h4_feedback__message {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media(max-width: 1023px) {
+    .ul_list_pokemon__container {
+        gap: 60px 30px;
+    }
+}
+
+@media(max-width: 767px) {
+    .ul_list_pokemon__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

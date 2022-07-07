@@ -1,0 +1,13 @@
+.article_wallet__container {
+    margin: 60px auto 40px;
+    padding: 30px;
+    width: 400px;
+    max-width: 95%;
+    background-color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 30%) 1px 3px 12px 0px;
+    border-radius: 8px;
+    gap: 20px;
+}
